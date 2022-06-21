@@ -1,0 +1,56 @@
+.freelancers-main-div{
+    background-color: #2b3247;
+}
+.top-freelancer-heading-1{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+    line-height: 1.5;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    background-color: blue;
+    padding: 16px 16px;
+}
+.link-top-freelancers{
+    text-decoration: none;
+}
+.top-freelancers-col{
+    margin-top: 24px;
+}
+.card-text-review{
+    margin-top: 10px;
+}
+.Cardprops{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 1rem;
+    font-size: 14px;
+    border: 2px solid blueviolet;
+    box-shadow: 1px 1px 3px whitesmoke;
+    width: 260px;
+    height: 380px;
+}
+.Cardimg{
+    border-radius: 1rem;
+    height: 180px;
+}
+.Card-title{
+    color: rgb(61, 19, 100);
+    font-family:sans-serif;
+}
+.Card-skills{
+    font-weight: 700;
+    color: rgb(58, 7, 139);
+    font-family:sans-serif;
+}
+.top-freelancers-image{
+    height : 500px ;
+    width :50%
+}
+.top-freelancers-col :hover{
+    cursor: pointer;
+    transition: all 5s linear;
+    transform: rotateY(360deg);
+}

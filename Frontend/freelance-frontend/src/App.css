@@ -1,0 +1,145 @@
+.app-main-1{
+  background-color: #2b3247;
+}
+.App {
+  text-align: center;
+}
+.position-relative{
+  padding-top: 48px;
+  height: 100%;
+  width: 100%;
+}
+figcaption{
+  position: absolute;
+  width: 54.25%;
+  bottom: 5rem;
+  color: aliceblue;
+}
+.img-app{
+  height: 400px;
+  width: 532px;
+  margin-left: 60%;
+  text-align: right; 
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.app-input{
+  border-radius: 0.5rem;
+  padding: 16px 24px;
+  margin-top: 16px;
+  width: 300px;
+  margin-left: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: left;
+  overflow: hidden;
+  border: 0;
+  margin-right: 35%;
+  box-shadow: 3px 3px 3px #ccc;
+}
+.para{
+  margin: 1.6em 0;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: left;
+  margin-left: 42px;
+  margin-top: 36px;
+}
+.heading-0{
+  margin-top: 24px;
+  margin-bottom: .6em;
+  font-size: 36px;
+  text-align: left;
+  margin-left: 42px;
+  display: flex;
+} 
+.app-list{
+  text-decoration: none;
+  display: flex;
+  padding: 24px 48px;
+}
+.div-app2{
+  background-color: rgb(248, 231, 231);
+  margin-bottom: -20px;
+}
+.app-div{
+  display: flex;
+  text-decoration: none;
+}
+.app-div-second{
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(252, 113, 245);
+  width: 180px;
+  margin-right: -20px;
+}
+.app-ul-list{
+  display: flex;
+
+}
+.app-para1{
+  font-size: 20px;
+  font-weight: 350;
+
+}
+.app-para2{
+  font-size: 16px;
+}
+.explore-main-div{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f7ebf5;
+}
+.explore-div{
+  background-color: white;
+  border: 2px solid rgb(10, 61, 128);
+  display: flex;
+  justify-content: start;
+}
+.explore-app{
+  font-family: 'Rye', cursive;
+  font-size: 50px;
+  margin-left: 50px;
+  color: rgb(64, 18, 107);
+  padding-bottom: 24px;
+  padding-top: 24px;
+  text-align: center;
+}
+.explore-app-link{
+  color: rgb(64, 18, 107);
+  text-decoration: none;
+}
+
+.explore-sec{
+  font-family: 'Rye', cursive;
+  font-size: 30px;
+  color: black;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+.explore-div-second{
+  background-image: linear-gradient(to right, rgb(248, 97, 210), rgba(255,0,0,0));
+  margin-right: 100px;
+  @media (min: width 50rem;){
+    margin-left:  0;
+}
+  
+}
+.explore-first-half{
+  margin-left: 50px;
+    @media (min: width 50rem;){
+        margin-right:  0;
+    }
+}
+.app-explore-img{
+  height: 400px;
+  width: 600px;
+  margin-left: 28.8%;
+  text-align: right; 
+  justify-content: flex-end;
+  flex-direction: row;
+}

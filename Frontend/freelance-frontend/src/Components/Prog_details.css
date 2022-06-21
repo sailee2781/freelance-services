@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to right, rgb(75, 92, 250), rgb(150, 237, 240));
+}
+.progdetail-card{
+    margin-left: 25%;      
+    margin-right: 25%;
+    width: auto;
+    background-image: linear-gradient(to bottom right, rgb(239, 247, 246), rgb(144, 227, 248));
+    border: 3px solid rgb(80, 15, 141);
+    box-shadow: 2px 2px rgb(181, 119, 240);
+}
+.progdetail-card:hover {
+    cursor: pointer;
+}
+.progdetail-head{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman';
+    color: rgb(84, 7, 114);
+}
+.progdetail-img{
+    height: 200px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.progdetail-name{
+    color: rgb(62, 5, 116);
+}
+.progdetail-intro{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(48, 6, 88);
+}
+.progdetail-contact{
+    text-align: center;
+    margin-top: 20px;
+    font-family: fantasy;
+    padding-bottom: 18px;
+}
+.progdetail-contact-main{
+    text-align: center;
+    color: rgb(48, 5, 88);
+}
+.progdetail-button{
+    text-align: right;
+}

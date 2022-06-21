@@ -1,0 +1,25 @@
+.Unorderedlist{
+    background-color: black;
+}
+.free-nav-head{
+    color: whitesmoke;
+    text-align: left;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.free-nav-main{
+    margin-right: 60px;
+}
+.div-nav{
+    margin-left: 355px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.free-nav{
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: whitesmoke;
+    padding-top: 24px;
+}

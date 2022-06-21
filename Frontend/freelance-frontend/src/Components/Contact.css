@@ -1,0 +1,40 @@
+.top-freelancers-form{
+    text-align: center;
+    font: inherit;
+    display: flex;
+    width: 800px;
+    padding: '50px';
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.top-freelancers-heading{
+    color : white;
+    padding-top: 16px;
+}
+.top-freelancer-heading-1{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+    line-height: 1.5;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    background-color: blue;
+    padding: 16px 16px;
+}
+.top-freelancers-placeholder{
+    width: 500px;
+    padding: auto;
+}
+.top-freelancers-button{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+.checkbox{
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}

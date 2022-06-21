@@ -1,0 +1,141 @@
+.main-div-agreement{
+    text-align: center;
+    color: whitesmoke;
+}
+.heading-agreement{
+    position: relative;
+    background-color: #2b3247;
+    padding: 48px 16px;
+}
+.agreement-h1{
+    font-size: 2.75rem;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+.agreement-h2{
+    color: #fff;
+    font-size: 1.20rem;
+    margin: 0;
+    font-weight: 500;
+}
+.agreement-section{
+    padding: 2.75rem 0;
+    position: relative;
+    background-color: whitesmoke;
+}
+.agreement-section-div{
+    padding: 0 1rem;
+}
+.agreement-section-h1{
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 4rem;
+    position: relative;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+}
+.agreement-para1{
+    text-align: center;
+    margin-top: -2.75rem;
+    margin-bottom: 3rem;
+    color: black;
+}
+.agreement-div2{
+    margin-bottom: 2rem !important;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.agreement-ul{
+    list-style: none;
+    color: black;
+    display: flex;
+    text-align: left;
+    box-sizing: border-box;
+}
+.agreement-li{
+    margin-right: 2rem;
+    box-sizing: border-box;
+    color: #8a0383;
+}
+.agreement-li-border{
+    border-top: 4px solid #2777c6;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 4px 4px rgb(20 102 143 / 8%);
+    box-shadow: 0 0 4px 4px rgb(20 102 143 / 8%);
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    background-color: #fab4f6;
+}
+.agreement-li-body{
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 16px 24px;
+}
+.agreement-li-body :hover{
+    cursor: pointer;
+}
+.agreement-li-div{
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: flex;
+}
+.agreement-list-h3{
+    color: #4e135a;
+    padding: 16px 16px;
+}
+.agreement-list-para{
+    color: black;
+}
+.section2-agreement{
+    position: relative;
+    color: black;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+}
+.section2-agreement-div{
+    position: relative;
+}
+.section2-h2{
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 4rem;
+    position: relative;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgb(12, 6, 100);
+    font-size: 2.2rem;
+}
+.section2-para{
+    text-align: center;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    font-size: 18px;
+}
+.section2-ol{
+    padding: 0;
+    display: flex;
+    text-align: left;
+}
+.section2-li{
+    position: relative;
+    margin-left: 2.5rem;
+    counter-increment: counter;
+    list-style: none;
+    margin-bottom: 2.5rem;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+    padding: 10px 16px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #ccc;
+}

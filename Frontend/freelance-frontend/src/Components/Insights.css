@@ -1,0 +1,99 @@
+.insights-section{
+    background: #f7f7f7;
+}
+.insights-div{
+    width: 100%;
+    box-sizing: border-box;
+}
+.insights-title{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+    line-height: 1.5;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    background-color: blue;
+    padding: 16px 16px;
+}
+.insights-ul{
+    list-style: none;
+    align-items: stretch;
+    display: flex;
+}
+.insights-li{
+    margin-left: 0.5rem;
+}
+.insights-card{
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 4px rgb(20 102 143 / 8%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 16px;
+    border: 2px solid blueviolet;
+}
+.insights-card-div{
+    color: #111;
+    padding: 1rem;
+    flex-grow: 1;
+    text-decoration: none;
+    width: 150px;
+    height: 150px;
+}
+.insights-img{
+    border-radius: 16px;
+}
+.insights-card-h1{
+    display: flex;
+    color: #111;
+    font-size: 22px;
+    text-decoration: white;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.insights-card-para{
+    margin-bottom: 0.25rem !important;
+    font-size: 1rem;
+    line-height: 1.44444444;
+    color: inherit;
+    margin: 0 0 1rem 0;
+}
+.time-insight{
+    text-decoration: none;
+    border: none;
+    width: 250px;
+}
+.insights-last-para{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.44444444;
+    color: inherit;
+}
+.insights-button{
+    display: inline-block;
+    background: #005ea6;
+    border: 1px solid #005ea6;
+    opacity: 0.9;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 1.4;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
