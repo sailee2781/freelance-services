@@ -1,2 +1,1 @@
-"# freelance-services" 
-"# freelance-services" 
+Technologies used : ReactJs NodeJS MongoDB ExpressJS
