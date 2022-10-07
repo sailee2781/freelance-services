@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from 'react'
+import { API } from "../globals"
 import axios from 'axios'
 
 export const SellerDetails = ({ match }) => {
     console.log(match.params.id);
     const [item, setitem] = useState({})
     function onLoad () { 
-        axios.get(`http://localhost:8080/programming`).where("Number", "==", match.match.params.id)
+        axios.get(`${API} + "programming"`).where("Number", "==", match.match.params.id)
             .then((response) => {
                 response.forEach((doc) => {
                 console.log(response.data)

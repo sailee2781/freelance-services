@@ -2,17 +2,21 @@ import './TopFreelancers.css'
 import React from 'react';
 import { Button, Breadcrumb, Card, Form, CardGroup, CardDeck, Container, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
-import photo from '../images/freelance.jpg'
-import Footer from './Footer'
-import {Link } from 'react-router-dom'
 import Unorderedlist from './Unorderedlist';
+import globals from '../globals';
+
 export default class TopFreelancers extends React.Component {
     state = {
         Freelancers: []
     }
 
     componentDidMount() {
-        axios.get(`http://localhost:5555/topfreelancers`)
+        console.log(`${globals.API + "topfreelancers"}`);
+        axios.get(`${globals.API + "topfreelancers"}`)
+            .then(res => {
+                console.log(res)
+                return res;
+            })
             .then(res => {
                 const Freelancers = res.data;
                 console.log(res.data)

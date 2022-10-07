@@ -3,6 +3,8 @@ import React from 'react';
 import { Button, Breadcrumb, Card, Form, CardGroup, CardDeck, Container, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
 import Unorderedlist from './Unorderedlist';
+import globals from '../globals';
+
 export default class BecomeFreelancer extends React.Component {
     state = {
         domain_name: '',
@@ -29,12 +31,21 @@ export default class BecomeFreelancer extends React.Component {
     
         console.log(data)
       
-        axios.post(`http://localhost:5555/progdomain`,  data )
+        axios.post(`${globals.API + "progdomain"}`,  data )
           .then(res => {
             console.log(res);
             console.log(res.data);
           })
-    
+        
+        alert("Submitted. Our team will review your details and contact you soon.")
+
+        this.setState({
+            domain_name: '',
+            freelancer_name: '',
+            intro: '',
+            cost: '',
+            image: '',
+          })
       }
     
    

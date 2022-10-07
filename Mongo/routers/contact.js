@@ -7,10 +7,10 @@ router2.post("/contact", async (req, res) =>{
         const addcontact = new ContactDetails(req.body)
         console.log(req.body);
         const newcontact = await addcontact.save();
-        res.status(201).send(newcontact);
-        res.send("Details Received");
+        return res.status(201).send(newcontact);
+        // res.send("Details Received");
     }catch(e){
-        res.status(400).send(e);
+        return res.status(400).send(e);
     }
   })
 

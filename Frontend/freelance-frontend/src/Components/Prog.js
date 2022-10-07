@@ -4,13 +4,14 @@ import axios from 'axios';
 import { Link } from 'react-router-dom'
 import Unorderedlist from './Unorderedlist';
 import './Prog.css'
+import globals from '../globals';
 export default class Prog extends React.Component {
   state = {
     courses: []
   }
 
   componentDidMount() {
-    axios.get(`http://localhost:5555/progdomain`)
+    axios.get(`${globals.API + "progdomain"}`)
       .then(res => {
         const courses = res.data;
         this.setState({ courses });

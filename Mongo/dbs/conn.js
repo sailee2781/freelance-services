@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 
-const local = "mongodb://localhost:27017/freelance";
-const hosted = "mongodb+srv://freelance_services:freelance_services@cluster0.gyndj.mongodb.net/?retryWrites=true&w=majority";
+// const db = "mongodb://localhost:27017/freelance";
+const db = "mongodb+srv://freelance_services:freelance_services@cluster0.gyndj.mongodb.net/freelance-db?retryWrites=true&w=majority";
 
-mongoose.connect(hosted,{
-    useNewUrlParser : true,
-}).then(() => {
-    console.log("Database Connected..!")
-}).catch((e) => {
-    console.log("Not connected..!")
-})
+try {
+    mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true }, () =>
+        console.log("Database connected"));
+}
+catch (error) {
+    console.log("Database couldn't connect");
+}

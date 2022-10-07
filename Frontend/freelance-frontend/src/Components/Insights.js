@@ -15,7 +15,7 @@ function Insights() {
                     <ul className="insights-ul">
                         <li className="insights-li">
                             <article className="insights-card">
-                                <a href="/blog/what-is-trello-used-for/" target="_blank">
+                                <a href="https://guru.com/blog/what-is-trello-used-for/" target="_blank">
                                     <figure className="u-margin-bottom--flush">
                                         <img className="insights-img" width="276" height="184" loading="lazy" src="https://res.cloudinary.com/gurucom/image/upload/f_auto,q_auto,w_600,h_400/v1631537924/wordpress/blog/what-is-trello-used-for.jpg" alt="What Is Trello Used For?" />
                                     </figure>
@@ -31,7 +31,7 @@ function Insights() {
 
                         <li className="insights-li">
                             <article className="insights-card">
-                                <a href="/blog/what-is-the-best-email-for-business/" target="_blank">
+                                <a href="https://guru.com/blog/what-is-the-best-email-for-business/" target="_blank">
                                     <figure className="u-margin-bottom--flush">
                                         <img className="insights-img" width="276" height="184" loading="lazy" src="https://res.cloudinary.com/gurucom/image/upload/f_auto,q_auto,w_600,h_400/v1631537932/wordpress/blog/whats-the-best-email-for-business.jpg" alt="What Is the Best Email for Business" />
                                     </figure>
@@ -45,7 +45,7 @@ function Insights() {
 
                         <li className="insights-li">
                             <article className="insights-card">
-                                <a href="/blog/what-is-a-cooperative-business/" target="_blank">
+                                <a href="https://guru.com/blog/what-is-a-cooperative-business/" target="_blank">
                                     <figure className="u-margin-bottom--flush">
                                         <img className="insights-img" width="276" height="184" loading="lazy" src="https://res.cloudinary.com/gurucom/image/upload/f_auto,q_auto,w_600,h_400/v1631537913/wordpress/blog/what-is-coopreative-business.jpg" alt="What Is a Cooperative Business?" />
                                     </figure>
@@ -61,7 +61,7 @@ function Insights() {
 
                         <li className="insights-li">
                             <article className="insights-card">
-                                <a href="/blog/what-is-a-business-goal/" target="_blank">
+                                <a href="https://guru.com/blog/what-is-a-business-goal/" target="_blank">
                                     <figure className="u-margin-bottom--flush">
                                         <img className="insights-img" width="276" height="184" loading="lazy" src="https://res.cloudinary.com/gurucom/image/upload/f_auto,q_auto,w_600,h_400/v1631537905/wordpress/blog/what-is-a-business-goal.jpg" alt="What Is a Business Goal?" />
                                     </figure>
@@ -78,7 +78,7 @@ function Insights() {
                     </ul>
 
                     <p className="insights-last-para">
-                        <Link to="https://www.guru.com/blog/" target="_blank" className="insights-button">View Our Blog</Link>
+                        <a href="https://www.guru.com/blog/" target="_blank" className="insights-button">View Our Blog</a>
                     </p>
                 </div>
             </section>

@@ -6,6 +6,7 @@ import photo from '../images/freelance.jpg'
 import Footer from './Footer'
 import Unorderedlist from './Unorderedlist';
 import { Link } from 'react-router-dom';
+import globals from '../globals';
 export default class Contact extends React.Component {
     state = {
         full_name: '',
@@ -28,12 +29,20 @@ export default class Contact extends React.Component {
         };
     
         console.log(user)
-        axios.post(`http://localhost:5555/contact`,  user )
+        axios.post(`${globals.API + "contact"}`,  user )
           .then(res => {
             console.log(res);
             console.log(res.data);
           })
-    
+          
+          alert("Submitted..! Our team will get back to you soon.")
+
+          this.setState({
+            full_name: '',
+            email: '',
+            domain : '',
+            message: '',
+          });
       }
 
     render() {
